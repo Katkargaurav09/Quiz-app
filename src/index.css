@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Home page */
+
+.home-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgb(75, 139, 229), rgb(159, 90, 229));
+  font-family: cursive;
+}
+.home-container > article {
+  width: 45%;
+  border-radius: 10px;
+  padding: 30px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.home-container > article > h1 {
+  text-align: center;
+  font-size: 25px;
+}
+.home-container hr {
+  border: none;
+  height: 2px;
+  background: #ccc;
+}
+.selection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.selection > label {
+  font-size: 22px;
+}
+.selection > select {
+  padding: 10px 15px;
+  border-radius: 5px;
+  outline: none;
+}
+.selection button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: rgb(18, 18, 201);
+  color: #fff;
+  border: transparent;
+  border-radius: 5px;
+}
+
+/* components csss */
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, violet, blue);
+  font-family: cursive;
+}
+.container > article {
+  width: 55%;
+  border-radius: 10px;
+  padding: 30px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.container > article > h1 {
+  text-align: center;
+  font-size: 25px;
+}
+.container hr {
+  border: none;
+  height: 2px;
+  background: #ccc;
+}
+.container > article > h2 {
+  font-size: 22px;
+}
+.container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+.container ul > li {
+  padding: 15px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container p {
+  text-align: center;
+}
+.container .next-btn {
+  padding: 10px 20px;
+  background: blue;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.correct {
+  background: rgb(95, 225, 95);
+  border: 1px solid green;
+}
+.wrong {
+  background: rgb(230, 78, 78);
+  border: 1px solid red;
+}
