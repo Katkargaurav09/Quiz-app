@@ -1,12 +1,31 @@
-# React + Vite
+# 🧠 React Aptitude Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive and customizable quiz application built with **React.js**. Users can test their skills in **Quantitative Aptitude**, **Logical Reasoning**, and **Verbal Ability** by selecting the category, difficulty level, and number of questions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎯 Selectable Quiz Category: Numerical, Logical, Verbal
+- 📊 Choose Difficulty Level: Basic, Intermediate, Advanced
+- 🔢 Select Number of Questions: 5, 10, 15, 20
+- ✅ Instant feedback on correct/wrong answers
+- 🧾 Score summary at the end
+- 🔁 Option to reset and retake the quiz
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, CSS
+- **Data**: Static JSON file for quiz questions
+
+---
+
+# ✍️ Author
+Gaurav Katkar
+
+GitHub: @katkargaurav09
+
+🌟 Show your support
+Give a ⭐️ if you like this project or found it helpful!
